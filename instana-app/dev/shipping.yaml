@@ -16,7 +16,7 @@ resources:
     memory: "2Gi"
     cpu: "1000m"
 health_check:
-  path: /healthy
+  path: /health
 probes:
   enabled: true
   liveness:
