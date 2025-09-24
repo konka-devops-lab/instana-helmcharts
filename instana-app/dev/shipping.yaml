@@ -53,7 +53,7 @@ secrets:
   enabled: true
   list:
     - data:
-        DB_USER:  "shipping1"
+        DB_USER:  "shipping"
         DB_PASSWD: "RoboShop@1"
 
 ingress:
