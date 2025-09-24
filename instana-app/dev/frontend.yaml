@@ -43,7 +43,7 @@ hpa:
           averageUtilization: 50
 # Ingress
 ingress:
-  enabled: true
+  enabled: false
 alb:
   name: "ullagallu-konka"
   group: "ullagallu"
