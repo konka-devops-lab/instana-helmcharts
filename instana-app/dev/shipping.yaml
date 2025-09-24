@@ -10,11 +10,11 @@ image:
   tag: monitoring-v1
 resources:
   requests:
-    memory: "300Mi"
-    cpu: "200m"
+    memory: "1Gi"
+    cpu: "800m"
   limits:
-    memory: "400Mi"
-    cpu: "400m"
+    memory: "2Gi"
+    cpu: "1000m"
 health_check:
   path: /health
 probes:
