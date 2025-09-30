@@ -5,6 +5,7 @@ replicaCount: 1
 labels:
   app: rabbitmq
   tier: database
+  version: v1
 image:
   repository: siva9666
   name: rabbit-instana

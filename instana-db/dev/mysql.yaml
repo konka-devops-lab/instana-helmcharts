@@ -5,6 +5,7 @@ replicaCount: 1
 labels:
   app: mysql
   tier: database
+  version: v1
 image:
   repository: siva9666
   name: mysql-instana
