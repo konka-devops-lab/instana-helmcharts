@@ -1,5 +1,6 @@
 env: dev
 name: frontend
+protocol: http
 labels:
   app: frontend
   tier: application

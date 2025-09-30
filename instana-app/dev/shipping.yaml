@@ -1,5 +1,6 @@
 env: dev
 name: shipping
+protocol: http
 labels:
   app: shipping
   tier: application

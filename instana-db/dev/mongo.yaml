@@ -1,5 +1,6 @@
 env: dev
 name: mongo
+protocol: tcp
 replicaCount: 1
 labels:
   app: mongo

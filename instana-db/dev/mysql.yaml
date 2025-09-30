@@ -1,5 +1,6 @@
 env: dev
 name: mysql
+protocol: tcp
 replicaCount: 1
 labels:
   app: mysql

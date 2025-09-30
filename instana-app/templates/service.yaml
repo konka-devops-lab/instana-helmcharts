@@ -8,7 +8,7 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-    - name: http-{{ .Values.name }}   # ✅ Added name in <protocol>-suffix format
+    - name: {{ .Values.protocol }}-{{ .Values.env }}-{{ .Values.name }}   # ✅ Added name in <protocol>-suffix format
       port: {{ .Values.service.port }}
       targetPort: {{ .Values.service.targetPort | default .Values.service.port }}
   selector:

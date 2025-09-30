@@ -1,5 +1,6 @@
 env: dev
 name: cart
+protocol: http
 labels:
   app: cart
   tier: application

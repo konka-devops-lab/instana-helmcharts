@@ -1,5 +1,6 @@
 env: dev
 name: payment
+protocol: http
 labels:
   app: payment
   tier: application
