@@ -4,6 +4,7 @@ protocol: http
 labels:
   app: shipping
   tier: application
+  version: v1
 replicaCount: 1
 image:
   repository: siva9666
